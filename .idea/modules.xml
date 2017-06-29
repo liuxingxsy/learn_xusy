@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/learn-common/learn-common.iml" filepath="$PROJECT_DIR$/learn-common/learn-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn-common-config/learn-common-config.iml" filepath="$PROJECT_DIR$/learn-common-config/learn-common-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn-common-core/learn-common-core.iml" filepath="$PROJECT_DIR$/learn-common-core/learn-common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn-common-parent/learn-common-parent.iml" filepath="$PROJECT_DIR$/learn-common-parent/learn-common-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn-common-web/learn-common-web.iml" filepath="$PROJECT_DIR$/learn-common-web/learn-common-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn-user-service/learn-user-service.iml" filepath="$PROJECT_DIR$/learn-user-service/learn-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn-user-share/learn-user-share.iml" filepath="$PROJECT_DIR$/learn-user-share/learn-user-share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn-web-platform/learn-web-platform.iml" filepath="$PROJECT_DIR$/learn-web-platform/learn-web-platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn_xusy.iml" filepath="$PROJECT_DIR$/learn_xusy.iml" />
+    </modules>
+  </component>
+</project>
