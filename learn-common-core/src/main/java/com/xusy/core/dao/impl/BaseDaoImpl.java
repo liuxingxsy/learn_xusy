@@ -5,6 +5,7 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.mybatis.spring.SqlSessionTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
 import xusy.learn.common.page.PageBean;
 import xusy.learn.common.page.PageParam;
 
@@ -17,6 +18,9 @@ import java.util.Map;
  */
 public class BaseDaoImpl<T> implements BaseDao<T> {
     protected static final  Logger log = LogManager.getLogger(BaseDaoImpl.class);
+    @Autowired
+    SqlSessionTemplate sqlSessionTemplate;
+
 
     /**
      * 新增一条记录
