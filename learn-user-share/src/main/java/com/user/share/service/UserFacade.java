@@ -1,23 +1,21 @@
-package com.xusy.core.dao;
+package com.user.share.service;
 
-import xusy.learn.common.page.PageBean;
-import xusy.learn.common.page.PageParam;
+import com.user.share.bean.User;
 
 import java.util.List;
 import java.util.Map;
 
 /**
- * 数据访问层基础公共接口.
- * Created by siyong.xu on 2017-07-03.
+ * Created by siyong.xu on 2017-07-05.
  */
-public interface BaseDao<T> {
+public interface UserFacade {
     /**
      * 新增一条记录
      *
      * @param insertObj
      * @return
      */
-    void insert(T insertObj);
+    void insert(User insertObj) ;
 
     /**
      * 批量保存记录
@@ -25,7 +23,7 @@ public interface BaseDao<T> {
      * @param objList
      * @return
      */
-    void batchInsert(List<T> objList) ;
+    void batchInsert(List<User> objList) ;
 
     /**
      * 更新记录
@@ -33,7 +31,7 @@ public interface BaseDao<T> {
      * @param updateObj
      * @return
      */
-    void update(T updateObj);
+    void update(User updateObj);
 
     /**
      * 批量更新记录
@@ -41,7 +39,7 @@ public interface BaseDao<T> {
      * @param objList
      * @return
      */
-    void batchUpdate(List<T> objList);
+    void batchUpdate(List<User> objList) ;
 
     /**
      * 根据id删除记录
@@ -49,7 +47,7 @@ public interface BaseDao<T> {
      * @param id
      * @return
      */
-    void deleteById(Long id) ;
+    void deleteById(Long id);
 
     /**
      * 根据id查询记录
@@ -57,7 +55,7 @@ public interface BaseDao<T> {
      * @param id
      * @return
      */
-    T getById(Long id);
+    User getById(Long id) ;
 
     /**
      * 根据条件查询 getByMap
@@ -65,7 +63,7 @@ public interface BaseDao<T> {
      * @param paramMap
      * @return
      */
-    T getByMap(Map<String, Object> paramMap);
+    User getByMap(Map<String, Object> paramMap);
 
     /**
      * 根据条件查询 listByMap
@@ -73,15 +71,6 @@ public interface BaseDao<T> {
      * @param paramMap
      * @return
      */
-    List<T> listByMap(Map<String, Object> paramMap);
-
-    /**
-     * 分页查询
-     *
-     * @param pageParam
-     * @param paramMap
-     * @return
-     */
-    PageBean<T> listPage(PageParam pageParam, Map<String, Object> paramMap);
+    List<User> listByMap(Map<String, Object> paramMap);
 
 }

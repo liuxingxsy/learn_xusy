@@ -13,6 +13,18 @@
     <groupId>xusy.learn.common</groupId>
     <artifactId>learn-user-share</artifactId>
     <version>${learn-user-share.version}</version>
+    <dependencies>
+        <dependency>
+            <groupId>xusy.learn.common</groupId>
+            <artifactId>learn-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>xusy.learn.common</groupId>
+            <artifactId>learn-common-core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
     <packaging>jar</packaging>
 
 

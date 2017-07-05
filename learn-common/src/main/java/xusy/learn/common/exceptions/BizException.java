@@ -4,7 +4,7 @@ package xusy.learn.common.exceptions;
  * 业务异常基类，所以业务异常均需继承此异常
  * Created by siyong.xu on 2017-06-29.
  */
-public class BizException extends Exception {
+public class BizException extends RuntimeException {
     private static final long serialVersionUID = 2461955237602618850L;
 
     /**

@@ -1,4 +1,4 @@
-package com.xusy.core.dao;
+package com.xusy.core.service;
 
 import xusy.learn.common.page.PageBean;
 import xusy.learn.common.page.PageParam;
@@ -7,10 +7,9 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 数据访问层基础公共接口.
- * Created by siyong.xu on 2017-07-03.
+ * Created by siyong.xu on 2017-07-05.
  */
-public interface BaseDao<T> {
+public interface BaseService<T> {
     /**
      * 新增一条记录
      *
@@ -83,5 +82,4 @@ public interface BaseDao<T> {
      * @return
      */
     PageBean<T> listPage(PageParam pageParam, Map<String, Object> paramMap);
-
 }

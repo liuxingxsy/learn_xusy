@@ -10,7 +10,8 @@ public enum ErrorEnum {
 
     DB_INSERT_RESULT_0(999001, "数据库操作,insert返回0!"),
     DB_UPDATE_RESULT_0(999002, "数据库操作,update返回0!"),
-    DB_SELECTONE_IS_NULL(999003, "数据库操作,selectOne返回null!"),
+    DB_DELETE_RESULT_0(999003, "数据库操作,delete返回0!"),
+    DB_SELECTONE_IS_NULL(999004, "数据库操作,selectOne返回null!"),
     DB_LIST_IS_NULL(999004,"数据库操作,list返回null!");
 
     Integer code;
