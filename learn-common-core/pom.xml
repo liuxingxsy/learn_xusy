@@ -97,5 +97,9 @@
             <artifactId>slf4j-api</artifactId>
         </dependency>
         <!-- log4j2 end -->
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+        </dependency>
     </dependencies>
 </project>

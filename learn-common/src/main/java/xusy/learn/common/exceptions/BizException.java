@@ -1,5 +1,7 @@
 package xusy.learn.common.exceptions;
 
+import xusy.learn.common.enums.ErrorEnum;
+
 /**
  * 业务异常基类，所以业务异常均需继承此异常
  * Created by siyong.xu on 2017-06-29.
@@ -35,6 +37,11 @@ public class BizException extends RuntimeException {
     }
     public BizException(String message) {
         super(message);
+    }
+    public BizException(ErrorEnum errorEnum){
+        super(errorEnum.getMsg());
+        this.code=errorEnum.getCode();
+        this.msg=errorEnum.getMsg();
     }
 
     public int getCode() {
