@@ -1,10 +1,10 @@
 package com.learn.dao;
 
+import com.github.abel533.mapper.Mapper;
 import com.user.share.bean.User;
-import com.xusy.core.dao.BaseDao;
 
 /**
  * Created by siyong.xu on 2017-07-05.
  */
-public interface UserDao extends BaseDao<User> {
+public interface UserDao extends Mapper<User>{
 }

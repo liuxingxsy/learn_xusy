@@ -20,6 +20,16 @@
             <artifactId>learn-common</artifactId>
             <version>${learn-common.version}</version>
         </dependency>
+        <dependency>
+            <groupId>xusy.learn.common</groupId>
+            <artifactId>learn-common-config</artifactId>
+            <version>${learn-common-config.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>xusy.learn.common</groupId>
+            <artifactId>learn-user-share</artifactId>
+            <version>${learn-user-share.version}</version>
+        </dependency>
         <!--spring 相关 start-->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -69,6 +79,28 @@
             <artifactId>mybatis-spring</artifactId>
         </dependency>
         <!-- MyBatis  End -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+        </dependency>
+        <!--通用mapper-->
+        <dependency>
+            <groupId>com.github.abel533</groupId>
+            <artifactId>mapper</artifactId>
+            <version>2.3.4</version>
+        </dependency>
+        <!--分页助手  start-->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper</artifactId>
+            <version>5.0.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.jsqlparser</groupId>
+            <artifactId>jsqlparser</artifactId>
+            <version>1.1</version>
+        </dependency>
+        <!--分页助手  start-->
         <!-- log4j2 start -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>

@@ -1,6 +1,5 @@
 package com.xusy.core.service.impl;
 
-import com.xusy.core.dao.BaseDao;
 import com.xusy.core.service.BaseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

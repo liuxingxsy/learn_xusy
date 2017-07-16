@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="learn-web-platform:war">
+    <output-path>$PROJECT_DIR$/learn-web-platform/target</output-path>
+    <root id="archive" name="learn-web-platform-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="learn-web-platform:war exploded" />
+    </root>
+  </artifact>
+</component>

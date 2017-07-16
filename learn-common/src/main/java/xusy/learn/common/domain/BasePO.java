@@ -1,5 +1,8 @@
 package xusy.learn.common.domain;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import java.io.Serializable;
 import java.util.Date;
 
@@ -12,6 +15,8 @@ public class BasePO implements Serializable {
     /**
      * 主键id
      */
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     /**
      * 创建者
